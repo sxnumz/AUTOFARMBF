@@ -14,7 +14,6 @@ local Window = Library.CreateLib("SX HUB | Blox Fruit", "Midnight")
 local Main = Window:NewTab("Main")
 local MobFarmSection = Main:NewSection("Auto Farm")
 MobFarmSection:NewToggle("God Mode","Click for use God Mode")
-_G.NoDie = true
 -- bringplayers แบบในประกาศ
 local player = game.Players.LocalPlayer
 if player.Character then
